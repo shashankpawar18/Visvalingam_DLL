@@ -11,14 +11,14 @@ public class Main {
 
         DoublyLinkedList<Integer, Integer> polyLine = new DoublyLinkedList<>();
 
-        /*polyLine.addFirst(1, 12, "A");
+        polyLine.addFirst(1, 12, "A");
         polyLine.addLast(2, 8, "B");
         polyLine.addLast(4, 6, "C");
         polyLine.addLast(9, 4, "D");
         polyLine.addLast(12, 1, "E");
-        polyLine.addLast(14, 11, "F");*/
+        polyLine.addLast(14, 11, "F");
 
-        polyLine.addFirst(554, 93, "1");
+       /* polyLine.addFirst(554, 93, "1");
         polyLine.addFirst(532, 72, "2");
         polyLine.addFirst(482, 48, "3");
         polyLine.addFirst(455, 45, "4");
@@ -59,7 +59,7 @@ public class Main {
         polyLine.addFirst(261, 479, "39");
         polyLine.addFirst(188, 488, "40");
         polyLine.addFirst(141, 493, "41");
-        polyLine.addFirst(73, 502, "42");
+        polyLine.addFirst(73, 502, "42");*/
 
         plotPolyLine(polyLine);
         TimeUnit.SECONDS.sleep(1);
